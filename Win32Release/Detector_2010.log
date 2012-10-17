@@ -1,0 +1,20 @@
+﻿Build started 16/10/2012 18:08:42.
+     1>Project "C:\Program Files\PrimeSense\NITE\Samples\Detector\Detector_2010.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32Release\Detector.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Detector_2010.vcxproj -> C:\Program Files\PrimeSense\NITE\Samples\Detector\..\Bin\Release\Detector.exe
+       FinalizeBuildStatus:
+         Deleting file "Win32Release\Detector.unsuccessfulbuild".
+         Touching "Win32Release\Detector.lastbuildstate".
+     1>Done Building Project "C:\Program Files\PrimeSense\NITE\Samples\Detector\Detector_2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

@@ -1,0 +1,24 @@
+﻿Build started 16/10/2012 18:08:07.
+     1>Project "C:\Program Files\PrimeSense\NITE\Samples\Detector\Detector_2010.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32Debug\Detector.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Bin/Debug/Detector.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\OpenNI\Lib" /LIBPATH:..\..\Lib /LIBPATH:../../Lib/ /LIBPATH:Libs OpenNI.lib XnVNite_1_5_2.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32Debug\Detector.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"../Bin/Debug/Detector.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\Debug\Detector.lib" /MACHINE:X86 Win32Debug\NITE.res
+         Win32Debug\main.obj
+         Detector_2010.vcxproj -> C:\Program Files\PrimeSense\NITE\Samples\Detector\..\Bin\Debug\Detector.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../Bin/Debug/Detector.exe;#1" /manifest Win32Debug\Detector.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32Debug\Detector.unsuccessfulbuild".
+         Touching "Win32Debug\Detector.lastbuildstate".
+     1>Done Building Project "C:\Program Files\PrimeSense\NITE\Samples\Detector\Detector_2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65

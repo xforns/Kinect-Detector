@@ -1,0 +1,55 @@
+﻿Compilación iniciada a las 04/09/2012 11:07:43.
+     1>Proyecto "C:\Program Files\PrimeSense\NITE\Samples\SingleControl\SingleControl_2010.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Win32Debug\SingleControl.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\OpenNI\Include" /I..\..\Include /I..\..\Samples\SingleControl /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32Debug\\" /Fd"Win32Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(133): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : vea la declaración de '_snprintf'
+     1>main.cpp(145): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : vea la declaración de '_snprintf'
+     1>main.cpp(236): warning C4244: '=' : conversión de 'double' a 'XnFloat'; posible pérdida de datos
+     1>main.cpp(237): warning C4244: '=' : conversión de 'double' a 'XnFloat'; posible pérdida de datos
+     1>main.cpp(238): warning C4244: '=' : conversión de 'double' a 'XnFloat'; posible pérdida de datos
+     1>main.cpp(631): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+     1>main.cpp(662): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+     1>main.cpp(671): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+     1>main.cpp(684): warning C4150: eliminación de puntero a tipo 'XnInternalNodeData' incompleto; no se ha llamado a un destructor
+                 c:\program files\openni\include\XnTypes.h(64) : vea la declaración de 'XnInternalNodeData'
+     1>main.cpp(685): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+     1>main.cpp(712): warning C4150: eliminación de puntero a tipo 'XnInternalNodeData' incompleto; no se ha llamado a un destructor
+                 c:\program files\openni\include\XnTypes.h(64) : vea la declaración de 'XnInternalNodeData'
+     1>main.cpp(713): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+     1>main.cpp(733): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+     1>main.cpp(741): warning C4996: 'xn::SkeletonCapability::RegisterCalibrationCallbacks': Please use RegisterToCalibrationStart/Complete
+                 C:\Program Files\OpenNI\Include\XnCppWrapper.h(7046) : vea la declaración de 'xn::SkeletonCapability::RegisterCalibrationCallbacks'
+     1>main.cpp(742): warning C4996: 'xn::PoseDetectionCapability::RegisterToPoseCallbacks': Please use RegisterToPoseDetected/RegisterToOutOfPose instead
+                 C:\Program Files\OpenNI\Include\XnCppWrapper.h(7456) : vea la declaración de 'xn::PoseDetectionCapability::RegisterToPoseCallbacks'
+     1>main.cpp(752): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+     1>main.cpp(806): warning C4150: eliminación de puntero a tipo 'XnInternalNodeData' incompleto; no se ha llamado a un destructor
+                 c:\program files\openni\include\XnTypes.h(64) : vea la declaración de 'XnInternalNodeData'
+     1>main.cpp(807): warning C4150: eliminación de puntero a tipo 'XnInternalNodeData' incompleto; no se ha llamado a un destructor
+                 c:\program files\openni\include\XnTypes.h(64) : vea la declaración de 'XnInternalNodeData'
+     1>main.cpp(809): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(302) : vea la declaración de 'close'
+       ResourceCompile:
+         Todas las salidas están actualizadas.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files\PrimeSense\NITE\Samples\SingleControl\Debug\SingleControl.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files\PrimeSense\NITE\Samples\Bin\Debug\Sample-SingleControl.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(SingleControl) no coincide con el valor de la propiedad OutputFile de Linker (Sample-SingleControl). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Bin/Debug/Sample-SingleControl.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\OpenNI\Lib" /LIBPATH:..\..\Lib /LIBPATH:../../Lib/ /LIBPATH:Libs OpenNI.lib XnVNite_1_5_2.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32Debug\SingleControl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"../Bin/Debug/Sample-SingleControl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\SingleControl.lib" /MACHINE:X86 Win32Debug\NITE.res
+         Win32Debug\main.obj
+     1>LINK : fatal error LNK1104: no se puede abrir el archivo '../Bin/Debug/Sample-SingleControl.exe'
+     1>Compilación del proyecto terminada "C:\Program Files\PrimeSense\NITE\Samples\SingleControl\SingleControl_2010.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:01.35
