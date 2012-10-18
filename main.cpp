@@ -18,8 +18,8 @@ if (rc != XN_STATUS_OK)												\
 
 // PLATFORM CONDITIONALS
 //----------------------------
-#define WINDOWS 1000
-//#define OSX 2000
+//#define WINDOWS 1000
+#define OSX 2000
 
 // UDP MESSAGES
 //----------------------------
@@ -76,7 +76,7 @@ if (rc != XN_STATUS_OK)												\
 
 // XML INITIALIZATION
 //----------------------------
-#define SAMPLE_XML_FILE_LOCAL "mide.xml"
+#define SAMPLE_XML_FILE_LOCAL "detector.xml"
 
 // CALIBRATION DATA
 //----------------------------
@@ -386,12 +386,12 @@ void getUserData() {
 				}
 
 				if(skeleton1 == -1 && aUsers[i] != skeleton2){
-					printf("Calibration ended: id: %i Sent as FIRST USER 25\n", aUsers[i]);
+					printf("Calibration ended: id: %i Sent as FIRST USER\n", aUsers[i]);
 					skeleton1 = aUsers[i];
 					sendWrapper(USER1_FOUND,com);
 				}
 				if(skeleton2 == -1 && aUsers[i] != skeleton1){
-					printf("Calibration ended: id: %i Sent as SECOND USER 80\n", aUsers[i]);
+					printf("Calibration ended: id: %i Sent as SECOND USER\n", aUsers[i]);
 					skeleton2 = aUsers[i];
 					sendWrapper(USER2_FOUND,com);
 				}
@@ -408,12 +408,12 @@ void getUserData() {
 			if(aUsers[i] == skeleton1 && skeleton1 != -1){
 				skeleton1 = -1;
 				sendWrapper(USER1_LOST,spt);
-				printf("LOST user: id: %i Sent as FIRST USER 26\n", aUsers[i]);
+				printf("LOST user: id: %i Sent as FIRST USER\n", aUsers[i]);
 			}
 			if(aUsers[i] == skeleton2 && skeleton2 != -1){
 				skeleton2 = -1;
 				sendWrapper(USER2_LOST,spt);
-				printf("LOST user: id: %i Sent as SECOND USER 81\n", aUsers[i]);
+				printf("LOST user: id: %i Sent as SECOND USER\n", aUsers[i]);
 			}
 		}
 	}
@@ -470,12 +470,12 @@ XnPoint3D pt[2];
 	if(skeleton1 == nId && skeleton1 != -1){
 		skeleton1 = -1;
 		sendWrapper(USER1_LOST,spt);
-		printf("LOST user: id: %i Sent as FIRST USER 26\n", (unsigned int)nId);
+		printf("LOST user: id: %i Sent as FIRST USER\n", (unsigned int)nId);
 	}
 	if(skeleton2 == nId && skeleton2 != -1){
 		skeleton2 = -1;
 		sendWrapper(USER2_LOST,spt);
-		printf("LOST user: id: %i Sent as SECOND USER 81\n", (unsigned int)nId);
+		printf("LOST user: id: %i Sent as SECOND USER\n", (unsigned int)nId);
 	}
 }
 
