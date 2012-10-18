@@ -16,6 +16,40 @@ Projects both for Microsoft Visual Studio 10 and a makefile for OSX are provided
 
 The code is based on NITE middleware version v1.5.2.21.
 
+GENERAL NOTES:
+
+The code expects the file 'detector.xml' to be present either at the debug or release directories. The content of the file is as follows:
+
+
+
+<OpenNI>
+	<Licenses>
+		<License vendor="PrimeSense" key="insert key here"/>
+	</Licenses>
+	<Log writeToConsole="true" writeToFile="false">
+		<!-- 0 - Verbose, 1 - Info, 2 - Warning, 3 - Error (default) -->
+		<LogLevel value="3"/>
+		<Masks>
+			<Mask name="ALL" on="false"/>
+		</Masks>
+		<Dumps>
+		</Dumps>
+	</Log>
+	<ProductionNodes>
+		<Node type="Depth">
+			<Configuration>
+				<Mirror on="true"/>
+			</Configuration>
+		</Node>
+		<Node type="Gesture" />
+		<Node type="Hands" />
+		<Node type="User" />
+	</ProductionNodes>
+</OpenNI>
+
+
+
+
 WINDOWS NOTES:
 
 If you happen to have the error "fatal error RC1015: can not open include file 'afxres.h' " when compiling the project, it's easily solvable. Either change the line at the 'nite.rc' file where it says 'afxres.h' for 'windows.h', or create a new file 'afxres.h' and place code you will find elsewhere on the web ;)
