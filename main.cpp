@@ -37,6 +37,23 @@ if (rc != XN_STATUS_OK)												\
 #define USER2_LOST 81
 #define FOO_USER 96
 
+// XML INITIALIZATION
+//----------------------------
+#define SAMPLE_XML_FILE_LOCAL "detector.xml"
+
+// CALIBRATION DATA
+//----------------------------
+#define XN_CALIBRATION_FILE_NAME "UserCalibration.bin"
+
+// UDP IP AND PORT
+//----------------------------
+#define UDPPORT 53001
+#define IP_A 127
+#define IP_B 0
+#define IP_C 0
+#define IP_D 1
+
+
 // GENERAL HEADERS
 //----------------------------
 #include <stdio.h>
@@ -74,21 +91,6 @@ if (rc != XN_STATUS_OK)												\
 #include <XnVFlowRouter.h>
 #include <XnVPointControl.h>
 
-// XML INITIALIZATION
-//----------------------------
-#define SAMPLE_XML_FILE_LOCAL "detector.xml"
-
-// CALIBRATION DATA
-//----------------------------
-#define XN_CALIBRATION_FILE_NAME "UserCalibration.bin"
-
-// UDP IP AND PORT
-//----------------------------
-#define UDPPORT 53001
-#define IP_A 127
-#define IP_B 0
-#define IP_C 0
-#define IP_D 1
 
 using namespace std;
 
