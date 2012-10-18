@@ -1,0 +1,21 @@
+Code that permits to perform hand detection and (two) users detection and tracking. It has already configured some UDP messages being sent to a single IP and port.
+
+Specifically:
+
+- No pose required for skeleton tracking.
+- Detects push and wave events.
+- Detects the presence of two hands and sends a UDP message; it also sents a UDP message when the second hand is lost.
+- Grabs location of the primary detected hand and sends it back to the specified IP.
+- When the users are detected, starts tracking the users' hands positions and sends it back to the specified IP.
+- When a hand and a user are detected or are lost, UDP messages are sent aswell.
+
+
+Major configurable parts are located in define directives at the beginning of the file.
+
+Projects both for Microsoft Visual Studio 10 and a makefile for OSX are provided.
+
+The code is based on NITE middleware version v1.5.2.21.
+
+WINDOWS NOTES:
+
+If you happen to have the error "fatal error RC1015: can not open include file 'afxres.h' " when compiling the project, it's easily solvable. Either change the line at the 'nite.rc' file where it says 'afxres.h' for 'windows.h', or create a new file 'afxres.h' and place code you will find elsewhere on the web ;)
