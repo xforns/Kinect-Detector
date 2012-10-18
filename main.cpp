@@ -182,7 +182,7 @@ void sendWrapperUser(int idGesture, XnPoint3D pos1,XnPoint3D pos2) {
 	#ifdef WINDOWS
 		_snprintf(data,31,"%d:%d,%d,%d,%d\0",idGesture,(int)pos1.X,(int)pos1.Y,(int)pos2.X,(int)pos2.Y);
 	#else
-		snprintf(data,31,"%d:%d,%d,%d,%d",idGesture,pos1.X,pos1.Y,pos2.X,pos2.Y);
+		snprintf(data,31,"%d:%d,%d,%d,%d",idGesture,(int)pos1.X,(int)pos1.Y,(int)pos2.X,(int)pos2.Y);
 	#endif
 	Send(data,sizeof(data));
 }
