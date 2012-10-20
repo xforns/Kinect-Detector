@@ -58,3 +58,10 @@ The code expects the file 'detector.xml' to be present either at the debug or re
 WINDOWS NOTES:
 
 If you happen to have the error "fatal error RC1015: can not open include file 'afxres.h' " when compiling the project, it's easily solvable. Either change the line at the 'nite.rc' file where it says 'afxres.h' for 'windows.h', or create a new file 'afxres.h' and place code you will find elsewhere on the web ;)
+
+
+
+DISCLAIMER:
+
+This software is based on sample working code obtained on NITE sample sources and code elsewhere on the Internet.. It may be unreliable, prone to errors and lacks proper testing.
+Besides it is an on-going project that I will keep updating until something (which still I have to define) mature is reached. 
