@@ -92,6 +92,11 @@ if (rc != XN_STATUS_OK)												\
 #include <XnVPointControl.h>
 
 
+// APP HEADERS
+//----------------------------
+#include "Interface.h"
+
+
 using namespace std;
 
 // OpenNI and NITE variables
