@@ -12,7 +12,12 @@ Specifically:
 
 Major configurable parts are located in define directives at the beginning of the file.
 
-Projects both for Microsoft Visual Studio 10 and a makefile for OSX are provided.
+The project can be built under three different scenarios:
+
+	- Microsoft Visual Studio 10
+	- OSX makefile (lacks testing under *nix and Windows)
+	- OSX Eclipse CDT (lacks testing under *nix and Windows)
+
 
 The code is based on NITE middleware version v1.5.2.21.
 
